@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-components</title>
+    <link rel="stylesheet" href="css/form-components.css" />
+    <link rel="stylesheet" href="css/navigation.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Warehouse Management System</h1>
+      <h2>Name - Rajwinder Singh || ID - 202016267</h2> 
+    </div>
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="patients.html">Patients</a> 
+        <a href="professionals.html">Healthcare Professionals</a> 
+        <a href="administrative.html">Administrative Staff</a> 
+        <a href="user-interface.html">User Interface</a>
+        <a href="database.html">Database</a>
+        <a href="form-components.html">Form Components</a>
+    </nav>
+  </header>
+      <h1>HTML Form Components Showcase</h1>
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
+        <p>This is a text input field for entering your name.</p>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email...">
+        <p>This is an email input field, which requires a valid email address format.</p>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Your password...">
+        <p>This is a password input field, where the entered text is obscured for privacy.</p>
+    </div>
+
+    <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Your age...">
+        <p>This is a number input field, suitable for entering numerical values such as age.</p>
+    </div>
+
+    <div class="form-group">
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <p>These are radio buttons for selecting gender. Only one option can be selected at a time.</p>
+    </div>
+
+    <div class="form-group">
+        <label for="interests">Interests</label>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <p>These are checkboxes for selecting interests. Multiple options can be selected.</p>
+    </div>
+
+    <div class="form-group">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+        </select>
+        <p>This is a dropdown select box for choosing your country from a list of options.</p>
+    </div>
+
+    <div class="form-group">
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself..."></textarea>
+        <p>This is a textarea for entering a biography or any other multi-line text input.</p>
+    </div>
+
+    <button type="submit">Submit</button>
+    <p>This button submits the form data to the server.</p>
+</body>
+</html>
+
